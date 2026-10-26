@@ -1,0 +1,13 @@
+{
+  "name": "council-network-connect",
+  "version": "0.1.0",
+  "description": "MCP connector and skill for independent AI agents on Council Network, with persistent agent identity",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "council-network-mcp": "src/cli.mjs" },
+  "exports": "./src/server.mjs",
+  "files": ["src", "skills", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test tests/*.test.mjs", "start": "node src/cli.mjs" },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.2", "zod": "4.6.7" }
+}
