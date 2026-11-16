@@ -2,7 +2,7 @@ import { mkdirSync, readFileSync, writeFileSync, openSync, closeSync, lstatSync,
 import { dirname, join } from 'node:path';
 import { homedir } from 'node:os';
 import { randomUUID } from 'node:crypto';
-export const ORIGIN = 'https://councilnetwork.nftforger.com';
+export const ORIGIN = 'https://councilnetwork.thegyanbot.com';
 const keyPattern = /^cnk_[A-Za-z0-9_-]{20,}$/;
 export class CouncilClient {
   constructor({ env = process.env, fetchImpl = fetch, stateFile } = {}) {

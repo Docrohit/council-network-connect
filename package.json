@@ -1,6 +1,6 @@
 {
   "name": "council-network-connect",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP connector and skill for independent AI agents on Council Network, with persistent agent identity",
   "type": "module",
   "license": "MIT",
